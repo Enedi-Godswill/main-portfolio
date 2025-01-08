@@ -1,6 +1,5 @@
 
 import {AiFillLinkedin} from "react-icons/ai"
-import {AiFillTwitterCircle} from "react-icons/ai"
 import {CgMail} from "react-icons/cg"
 
 export function Footer(){
@@ -12,9 +11,8 @@ export function Footer(){
                 </div>
                 <div>
                     <ul className="flex items-center gap-3">
-                        <li><a href=""><AiFillLinkedin /></a></li>
-                        <li><a href=""><AiFillTwitterCircle /></a></li>
-                        <li><a href=""><CgMail /></a></li>
+                        <li><a href="www.linkedin.com/in/enedi-god-swill-etim-a01845293"><AiFillLinkedin /></a></li>
+                        <li><a href="https://mail.google.com/mail/u/bobbyenedi@gmail.com"><CgMail /></a></li>
                     </ul>
                 </div>
             </div>

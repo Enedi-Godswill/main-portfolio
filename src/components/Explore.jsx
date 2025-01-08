@@ -1,13 +1,17 @@
 import { Navbar } from "./Navbar.jsx"
 import { Footer } from "./Footer.jsx"
+import hero from "../img/hero.jpg"
 
 export function Explore(){
     return(
         <div className="bg-gray-950 text-white">
             <Navbar />
                 <div className="flex flex-col text-2xl  gap-3 p-3 text-center justify-center items-center w-full h-screen">
-                    <h1 className="text-5xl font-bold">Frontend Developer</h1>
-                    <p>Bringing life to your websites</p>
+                    <img className="w-[40%] rounded-3xl" src={hero} alt="" />
+                    <div>
+                        <h1 className="text-5xl font-bold">Frontend Developer</h1>
+                        <p>Bringing life to your websites</p>
+                    </div>
                 </div>
                 <div className="flex flex-col justify-center text-center text-sm items-center gap-3 p-3 sm:text-2xl mb-8">
                     <h1 className="text-2xl font-semibold uppercase border-b-4 w-[60%] mb-3 ">About</h1>
